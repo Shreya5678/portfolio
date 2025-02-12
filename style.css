@@ -1,0 +1,159 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #f4f4f9;
+    color: #444;
+}
+
+/* Navigation Bar */
+nav ul {
+    background: #282c34;
+    padding: 15px;
+    text-align: center;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #61dafb;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #21a1f1;
+}
+
+/* Home Section */
+#home {
+    background: url('https://source.unsplash.com/1600x900/?technology,code') no-repeat center center/cover;
+    color: #222; /* Darker color for better contrast */
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#home h1 {
+    font-size: 3em;
+    color: #000; /* Black color for maximum visibility */
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5); /* White shadow for contrast */
+    margin: 0;
+}
+
+#home p {
+    font-size: 1.5em;
+    color: #333; /* Darker shade for better readability */
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5); 
+    margin-top: 10px;
+}
+
+/* About Section */
+#about {
+    background: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #333;
+}
+
+#about p {
+    max-width: 600px;
+    margin: auto;
+    line-height: 1.6;
+}
+
+/* Skills Section */
+#skills {
+    background: #61dafb;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#skills h2 {
+    color: #fff;
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    background: #21a1f1;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+/* Projects Section */
+#projects {
+    background: #f4f4f9;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#projects h2 {
+    color: #333;
+}
+
+.project-card {
+    display: inline-block;
+    width: 300px;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+
+.project-card h3 {
+    color: #61dafb;
+}
+
+.project-card ul {
+    text-align: left;
+    padding-left: 20px;
+}
+
+/* Contact Section */
+#contact {
+    background: #282c34;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#contact h2 {
+    color: #61dafb;
+}
+
+#contact p {
+    color: #ccc;
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: #ccc;
+    padding: 10px;
+    text-align: center;
+}
